@@ -1,0 +1,117 @@
+#contact .contact-info {
+    height: 100%;
+}
+
+.contact-left {
+    flex-basis: 35% ;
+}
+
+.contact-left p {
+     margin-top: 30px;
+     font-size: 18px;
+}
+
+.contact-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-left p a i {
+    color: #ababab;
+    margin-right: 15px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.contact-left p a i:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: #ff004f;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+.contact-right form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.contact-right form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.thanks-note {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    color: #ff004f;
+    animation: 2s anim-popoutin ease-in-out;
+}
+
+.thanks-note i {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes anim-popoutin {
+    0% {
+      color: #fff;
+      transform: scale(1);
+      opacity: 0;
+    }
+    50% {
+      color: #ff004f;
+      transform: scale(1.25);
+      opacity: 1;
+    }
+    100% {
+      color: #fff;
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+@media only screen and (max-width: 660px) {
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+    }
+}
