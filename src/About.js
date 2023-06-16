@@ -17,7 +17,7 @@ const [display,setDisplay] = useState("skills")
                 </div>
                 <div className='about-col-2'>
                     <h1 className='heading'>About Me</h1>
-                    <p>Front-End Developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. Ready to apply my passion for coding to a talented engineering team to develop quality solutions.</p>
+                    <p>Frontend developer with three years of professional experience in building responsive and user-friendly websites. I have experience working with <b>HTML, CSS, JavaScript, Typescript, React, Next.JS, Redux, REST API, Axios and modern CSS frameworks Bootstrap, Tailwind CSS, SASS, LESS, Styled Components.</b> I have experience in collaborating with a team and delivering best results in the given time frame.</p>
                     <div className='tab-titles'>
                         <p className= {display === "skills" ? "active-link tab-links" : "tab-links"} onClick={()=> setDisplay("skills")} >Skills</p>
                         <p className={display === "experience" ? "active-link tab-links" :"tab-links"} onClick={()=> setDisplay("experience")} >Experience</p>
