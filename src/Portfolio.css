@@ -80,7 +80,8 @@
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #d80043;
+    transform: scale(0.93);
 }
 
 .btn i {

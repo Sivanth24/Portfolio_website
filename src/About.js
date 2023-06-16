@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './About.css'
 import Description from './Description'
-import User_img from './images/user.png'
+import User_img from './files/user.png'
 
 
 function About() {

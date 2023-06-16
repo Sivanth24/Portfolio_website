@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css'
-import CV from './images/my-cv.pdf'
+import Resume from './files/Sivanth_Pachipala_Resume.pdf'
 import { db } from './firebaseConfig'
 import { addDoc, collection } from "firebase/firestore"; 
 
@@ -41,7 +41,7 @@ function Contact() {
                         <a href='https://twitter.com/sivanth_p' target='_blank' rel='noreferrer'><i className="fa-brands fa-square-twitter"></i></a>
                         <a href='https://www.instagram.com/sivanth_p/' target='_blank' rel='noreferrer'><i className="fa-brands fa-square-instagram"></i></a>
                     </div>
-                    <a className='btn btn2' href={CV} download="Sivanth's-CV">Download CV</a> 
+                    <a className='btn btn2' href={Resume} download="Sivanth_Pachipala_Resume">Download Resume</a>
                 </div>
                 <div className='contact-right'>
                     <form>
