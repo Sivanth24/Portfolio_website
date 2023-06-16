@@ -1,8 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
-import work_1 from './images/work-1.png'
-import work_2 from './images/work-2.png'
-import work_3 from './images/work-3.png'
+import work_1 from './files/work-1.png'
+import work_2 from './files/work-2.png'
+import work_3 from './files/work-3.png'
 
 function Portfolio() {
   return (
