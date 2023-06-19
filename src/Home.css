@@ -34,9 +34,10 @@
     #home {
         background-image: url(./files/background.png);
         background-position: left;
-        background-position-y: bottom;
+        background-position-y: center;
     }
     .header-text {
+        height: 100%;
         margin-top: 70px;
         font-size: 16px;
     }
