@@ -35,12 +35,12 @@ function Contact() {
                     <h1 className='heading'>Contact Me</h1>
                     <p><a href='mailto:sivanth24@gmail.com' target='_blank' rel='noreferrer'><i className="fa-solid fa-paper-plane"></i></a>sivanth24@gmail.com</p>
                     <p><a href='tel:+393200938021' target='_blank' rel='noreferrer'><i className="fa-solid fa-phone"></i></a>+39 3200938021</p>
-                    <div className='social-icons'>
+                    {/* <div className='social-icons'>
                         <a href='https://www.linkedin.com/in/sivanth-pachipala-516391b7/' target='_blank' rel='noreferrer'><i className="fa-brands fa-linkedin"></i></a>
                         <a href='https://www.facebook.com/p.sivanth/' target='_blank' rel='noreferrer'><i className="fa-brands fa-square-facebook"></i></a>
                         <a href='https://twitter.com/sivanth_p' target='_blank' rel='noreferrer'><i className="fa-brands fa-square-twitter"></i></a>
                         <a href='https://www.instagram.com/sivanth_p/' target='_blank' rel='noreferrer'><i className="fa-brands fa-square-instagram"></i></a>
-                    </div>
+                    </div> */}
                     <a className='btn btn2' href={Resume} download="Sivanth_Pachipala_Resume">Download Resume</a>
                 </div>
                 <div className='contact-right'>

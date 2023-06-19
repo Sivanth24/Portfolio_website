@@ -11,6 +11,7 @@
 
 .about-col-1 {
     flex-basis: 35%;
+    justify-content: center;
 }
 
 .about-col-1 img {
@@ -20,6 +21,7 @@
 
 .about-col-2 {
     flex-basis: 60%;
+    overflow: hidden;
 }
 
 .heading {
@@ -63,6 +65,7 @@
 
 .tab-contents {
     display: block;
+    position: relative;
 }
 
 .tab-contents ul {
@@ -80,22 +83,14 @@
 
 .tab-contents p {
     width: max-content;
-    cursor: pointer;
     margin-top: 10px;
-}
-
-.tab-contents p:hover {
-    color: #fff;
-}
-
-.active-content {
-    cursor: pointer;
-    margin-top: 10px;
-    color: #fff;
 }
 
 .exp-content {
-    margin: 10px 25px;
+    display: block;
+    height: 100px;
+    padding: 0px 25px;
+    overflow: auto;
 }
 
 .exp-content li {
