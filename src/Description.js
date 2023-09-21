@@ -16,7 +16,7 @@ const Description = ({Display}) => {
   )} else if (Display==="experience") {
         return(
           <div className='tab-contents' id="experience">
-              <ul>
+              {/* <ul>
                   <li><span>2019-2021</span><br/><p>ORBINET TECHNOLOGIES PVT LTD - Frontend Developer, Bangalore, India.</p></li>
                     <ul className='exp-content'>
                       <li>Developed Fronted web applications using HTML5, CSS3, Bootstrap, SCSS, Tailwind, TypeScript, and React.</li>
@@ -39,7 +39,7 @@ const Description = ({Display}) => {
                       <li>Carried out day-day-day duties accurately and efficiently.</li>
                       <li>Worked flexible hours; night, weekend, and holiday shifts.</li>
                     </ul>
-              </ul>
+              </ul> */}
           </div>
 
   )} else {return(

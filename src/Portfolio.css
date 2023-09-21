@@ -4,7 +4,7 @@
 
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -16,7 +16,9 @@
 }
 
 .work img {
-    width: 100%;
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
     display: block;
     transition: 0.5s;
@@ -39,7 +41,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0px 20px;
     text-align: center;
     font-size: 14px;
     transition: 0.5s;
@@ -76,14 +78,22 @@
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    background-color: #080808;
     transition: 0.5s;
 }
 
 .btn:hover {
     background: #d80043;
     transform: scale(0.93);
+    cursor: pointer;
 }
 
 .btn i {
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+    .work-list {
+        grid-template-columns: repeat(1, minmax(250px, 1fr));
+    }
 }
